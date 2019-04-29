@@ -17,6 +17,11 @@ public class FLname {
 
         System.out.println(firstName+ "  The length is:"+ firstName.length());
         System.out.println(lastName + "  The length is:"+lastName.length());
+
+        int speed = 58;
+        double distance = 657.5;
+        System.out.println("At 58 mph, it will take " + distance / speed + " hours to travel 657.5 miles");
+
     }
 
 }

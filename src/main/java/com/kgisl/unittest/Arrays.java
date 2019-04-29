@@ -7,8 +7,8 @@ class Arrays {
 
         // System.out.println(Arrays.deepToString(deepArray));
 
-        for (int i = 0; i < deepArray.length; ++i) {
-            for(int j = 0; j < deepArray[i].length; ++j) {
+        for (int i = 0; i < deepArray.length; i++) {
+            for(int j = 0; j < deepArray[i].length;j++) {
                System.out.println(deepArray[i][j]);
             }
     }

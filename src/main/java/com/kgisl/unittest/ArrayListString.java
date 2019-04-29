@@ -13,15 +13,14 @@ import java.util.ArrayList;
 public class ArrayListString {
     public static void main(String[] args) {
 
-        ArrayList<String> covert = new ArrayList<String>();
+        // ArrayList<String> covert = new ArrayList<String>();
         String[] stringArray = { "Good", "Bad", "Calm", "New", "End" };
         ArrayList<String> arrayList = new ArrayList<String>(Arrays.asList(stringArray));
-        String[] strArr = new String[arrayList.size()];
-        arrayList.toArray(strArr);
-        for (String var : strArr)
+        // String[] strArr = new String[arrayList.size()];
+        // arrayList.toArray(strArr);
+        for (String var : arrayList)
             System.out.println(var);
-
-
+            
         // String[] arr = list.toArray(new String[list.size()]);
 
     }
